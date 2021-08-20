@@ -1,14 +1,14 @@
 import React from 'react';
 import styles from './Dashboard.module.css';
-import Fonts from './Fonts';
+import Fonts from '../components/Fonts';
 
 export default function Dashboard(): JSX.Element {
   return (
     <div className={styles.dashboard}>
       <h1>Playground</h1>
-
-      <h2>Fonts</h2>
-      <Fonts />
+      test
+      {/* <h2>Fonts</h2> */}
+      {/* <Fonts /> */}
     </div>
   );
 }
